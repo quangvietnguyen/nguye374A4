@@ -14,12 +14,14 @@ body {
 
 @media (orientation: portrait){
     body {
-        width: 375px;
+        width: 373px;
+        height: 809px;
     }
 }
 
 @media (orientation: landscape){
     body {
-        width: 812px;
+        width: 810px;
+        height: 373px;
     }
 }
