@@ -1,29 +1,31 @@
-<h3>List of Covid Data</h3>
-<mat-tab-group>
-    <mat-tab label="Long-Term Care Home">
-        <div class="display">
-            <ul>
-                <li *ngFor="let d of dataList">
-                    <strong>Date: {{d.Report_Data_Extracted}}</strong><br>
-                    Homes with Active Outbreak: {{d.LTC_Homes_with_Active_Outbreak}}<br>
-                    Home with Resolved Outbreak: {{d.LTC_Homes_with_Resolved_Outbreak}}<br>
-                    Confirmed Active LTC Resident Cases: {{d.Confirmed_Active_LTC_Resident_Cases}}<br>
-                    Total LTC Resident Deaths: {{d.Total_LTC_Resident_Deaths}}<br>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-    </mat-tab>
-    <mat-tab label="Heath Care Worker">
-        <div class="display">
-            <ul>
-                <li *ngFor="let d of dataList">
-                    <strong>Date: {{d.Report_Data_Extracted}}</strong><br>
-                    Confirmed Active LTC HCW Cases: {{d.Confirmed_Active_LTC_HCW_Cases}}<br>
-                    Total LTC HCW Deaths: {{d.Total_LTC_HCW_Deaths}}<br>
-                    <hr>
-                </li>
-            </ul>
-        </div>
-    </mat-tab>
-</mat-tab-group>
+<div id="main">
+    <h3>Covid Data</h3>
+    <mat-tab-group>
+        <mat-tab label="Long-Term Care Home">
+            <div class="display">
+                <ul>
+                    <li *ngFor="let d of dataList">
+                        <strong>Date: {{d.Report_Data_Extracted}}</strong><br>
+                        Homes with Active Outbreak: {{d.LTC_Homes_with_Active_Outbreak}}<br>
+                        Home with Resolved Outbreak: {{d.LTC_Homes_with_Resolved_Outbreak}}<br>
+                        Confirmed Active LTC Resident Cases: {{d.Confirmed_Active_LTC_Resident_Cases}}<br>
+                        Total LTC Resident Deaths: {{d.Total_LTC_Resident_Deaths}}<br>
+                        <hr>
+                    </li>
+                </ul>
+            </div>
+        </mat-tab>
+        <mat-tab label="Heath Care Worker">
+            <div class="display">
+                <ul>
+                    <li *ngFor="let d of dataList">
+                        <strong>Date: {{d.Report_Data_Extracted}}</strong><br>
+                        Confirmed Active LTC HCW Cases: {{d.Confirmed_Active_LTC_HCW_Cases}}<br>
+                        Total LTC HCW Deaths: {{d.Total_LTC_HCW_Deaths}}<br>
+                        <hr>
+                    </li>
+                </ul>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>

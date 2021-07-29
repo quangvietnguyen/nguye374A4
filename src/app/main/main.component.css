@@ -1,5 +1,12 @@
+* {
+    background-color: RGB(218, 239, 179);
+}
 .display {
     overflow: auto;
     height: 500px;
-    border: solid black thin;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
 }
