@@ -1,11 +1,11 @@
 * {
-    background-color: RGB(218, 239, 179);
+    background-color: RGB(141, 179, 139);
 }
 
 @media (orientation: portrait){
     .display {
         overflow: auto;
-        height: 505px;
+        height: 523px;
     }
 }
 
