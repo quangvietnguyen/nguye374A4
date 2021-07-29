@@ -1,12 +1,17 @@
 * {
     background-color: RGB(218, 239, 179);
 }
-.display {
-    overflow: auto;
-    height: 500px;
+
+@media (orientation: portrait){
+    .display {
+        overflow: auto;
+        height: 505px;
+    }
 }
 
-h3 {
-    text-align: center;
-    padding-top: 15px;
+@media (orientation: landscape){
+    .display {
+        overflow: auto;
+        height: 105px;
+    }
 }
